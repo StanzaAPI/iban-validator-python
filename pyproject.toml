@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stanzaapi-iban-validator"
+version = "1.0.0"
+description = "Official zero-dependency, high-speed Python client for Global IBAN, BIC/SWIFT & Bank Routing Validator API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["iban","bic-swift","sepa","iso-13616","mod-97","bban","bank-routing","fintech","payment-validation"]
+authors = [
+  { name = "Stanza" },
+]
+
+[project.urls]
+Homepage = "https://stanzaapi.com/tools/iban-validator"
+Repository = "https://github.com/stanzaapi/iban-validator-python"
